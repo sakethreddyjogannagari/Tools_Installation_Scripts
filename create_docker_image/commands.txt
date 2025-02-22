@@ -1,0 +1,11 @@
+docker build -t dockerid/image_name:latest .
+
+
+docker container run -d -p host_port:container port docker_id/image_name
+
+
+docker container ls
+
+docker container stop
+
+docker push docker_id/image_name
